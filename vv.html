@@ -1,1 +1,92 @@
-<p>This is new repo</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="ff.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .gallery img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            margin: 10px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#product">Product</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#help">Help</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h1>Welcome to our Image Gallery</h1>
+        </section>
+
+        <section id="gallery" class="gallery">
+            <img src="https://via.placeholder.com/200" alt="Image 1">
+            <img src="https://via.placeholder.com/200" alt="Image 2">
+            <img src="https://via.placeholder.com/200" alt="Image 3">
+            <img src="https://via.placeholder.com/200" alt="Image 4">
+            <img src="https://via.placeholder.com/200" alt="Image 5">
+            <img src="https://via.placeholder.com/200" alt="Image 6">
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Image Gallery Website. All rights reserved.</p>
+        <nav>
+            <ul>
+                <li><a href="#privacy">Privacy Policy</a></li>
+                <li><a href="#terms">Terms of Service</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
